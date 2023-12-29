@@ -17,11 +17,11 @@ function NavBar() {
     return (
         <Navbar expand="lg" className="bg-body-tertiary">
             <Container fluid className="navbar-container">
-                <Navbar.Brand href="#"></Navbar.Brand>
+                <Navbar.Brand href="#about"></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto" variant="underline">
-                        <Nav.Link href="#" onClick={aboutClick}>About</Nav.Link>
+                    <Nav className="me-auto" variant="underline" defaultActiveKey="#about">
+                        <Nav.Link href="#about" onClick={aboutClick}>About</Nav.Link>
                         <Nav.Link href="#projects" onCLick={projectClick}>Projects</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
