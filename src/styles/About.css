@@ -1,0 +1,61 @@
+
+h1{
+    text-align: left;
+}
+
+p{
+    text-align: left;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: flex;
+    flex-direction: row;
+}
+
+.about-container{
+    width: 50vw;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.profile-img{
+    width: 18vw;
+    border-radius: 1.6rem;
+    margin-top: 2rem;
+}
+
+.experience-list{
+    margin-top: 4rem;
+    text-align: left;
+}
+
+.list-icon{
+    margin-right: 1rem;
+}
+
+.hand-point{
+    scale: 3;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 20rem;
+}
+
+.hand-point-down{
+    scale: 3;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 30rem;
+}
+
+.link-container{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 2rem;
+}
