@@ -8,40 +8,40 @@ import '../styles/Projects.css';
 
 function Projects() {
     return(
-        <Container fluid className="projects-container">
+        <Container fluid className="projects-container" id="projects">
             <Row>
                 <Col>
 
                     <Card className="project-card">
                         <Card.Img variant="left" src="" />
                         <Card.Body>
-                            <Card.Title>Project One</Card.Title>
+                            <Card.Title>Quacky Clicker</Card.Title>
                             <Card.Text>
-                                Lorem ipsum.
+                                A rubber ducky themed clicker game for iOS.
                             </Card.Text>
-                            <Button variant="primary">Link</Button>
+                            <Button variant="dark" href="https://github.com/dgutkin/Quacky-Clicker">See More</Button>
                         </Card.Body>
                     </Card>
 
                     <Card className="project-card">
                         <Card.Img variant="left" src="" />
                         <Card.Body>
-                            <Card.Title>Project Two</Card.Title>
+                            <Card.Title>Bart the Banker</Card.Title>
                             <Card.Text>
-                                Lorem ipsum.
+                                A procedurally generated runner game for mobile.
                             </Card.Text>
-                            <Button variant="primary">Link</Button>
+                            <Button variant="dark" href="https://github.com/dgutkin/Bart-The-Banker">See More</Button>
                         </Card.Body>
                     </Card>
 
                     <Card className="project-card">
                         <Card.Img variant="left" src="" />
                         <Card.Body>
-                            <Card.Title>Project Two</Card.Title>
+                            <Card.Title>Under Construction</Card.Title>
                             <Card.Text>
-                                Lorem ipsum.
+                                Web development project.
                             </Card.Text>
-                            <Button variant="primary">Link</Button>
+                            <Button variant="dark" disabled="true">See More</Button>
                         </Card.Body>
                     </Card>
                 </Col>
