@@ -41,15 +41,11 @@ function About() {
                             </li>
                             <li>
                                 <p><FontAwesomeIcon className="list-icon" icon={faCheck} /></p>
-                                <p>Ex-asset management data professional</p>
+                                <p>Ex-financial services strategy & analytics professional</p>
                             </li>
                             <li>
                                 <p><FontAwesomeIcon className="list-icon" icon={faCheck} /></p>
-                                <p>Ex-management consultant</p>
-                            </li>
-                            <li>
-                                <p><FontAwesomeIcon className="list-icon" icon={faCheck} /></p>
-                                <p>uWaterloo mathematics alumnus</p>
+                                <p>U of Waterloo mathematics</p>
                             </li>
                         </ul>
                     </Row>

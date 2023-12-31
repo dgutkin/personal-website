@@ -1,3 +1,5 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 import NavBar from './components/NavBar';
 import About from './pages/About';
 import Projects from './pages/Projects';
@@ -7,10 +9,13 @@ import './styles/App.css';
 function App() {
   return (
     <div className="App">
-        {/* convert to router with pages */}
-        <NavBar/>
-        <About/>
-        <Projects/>
+      <NavBar/>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<About/>}/>
+          <Route path="/projects" element={<Projects/>}/>
+        </Routes>  
+      </BrowserRouter>
     </div>
   );
 }

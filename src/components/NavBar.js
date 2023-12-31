@@ -7,24 +7,27 @@ import '../styles/NavBar.css';
 
 function NavBar() {
 
-    const scrollToAbout = () => {
-        scroller.scrollTo(0,0);
-    }
+    // const scrollToAbout = () => {
+    //     scroller.scrollTo(0,0);
+    // }
 
-    const scrollToProject = () => {
-        scroller.scrollTo('projects', {
-            smooth: true
-        });
-    }
+    // const scrollToProject = () => {
+    //     scroller.scrollTo('projects', {
+    //         smooth: true
+    //     });
+    // }
 
     return (
         <Navbar expand="lg" className="bg-body-tertiary" sticky="top">
             <Container fluid className="navbar-container">
-                <Navbar.Brand href="#about"></Navbar.Brand>
-                    <Nav className="me-auto" variant="underline" defaultActiveKey="#about">
-                        <Nav.Link href="#about" onSelect={scrollToAbout}>About</Nav.Link>
-                        <Nav.Link href="#projects" onSelect={scrollToProject}>Projects</Nav.Link>
+                <Navbar.Brand href="/"></Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="me-auto" variant="underline">
+                        <Nav.Link href="/">About</Nav.Link>
+                        <Nav.Link href="/projects">Projects</Nav.Link>
                     </Nav>
+                </Navbar.Collapse>
             </Container>
         </Navbar>
     )

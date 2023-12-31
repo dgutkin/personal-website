@@ -7,14 +7,14 @@
     margin-left: 2rem;
     margin-right: 2rem;
     display: flex;
-    align-items: center;
+    align-items: top;
 }
 
 .project-card{
     width: 18rem;
     margin: 2rem;
     background: #f8f9fa;
-    animation: cards-appear 3s linear
+    animation: cards-appear 0.5s linear
 }
 
 @keyframes cards-appear {
