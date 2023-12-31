@@ -22,11 +22,11 @@ function About() {
     }, []);
 
     return(
-        <Container fluid className="about-container" id="about">
+        <Container fluid className="about-container animate" id="about">
             <Row>
                 <Col>
                     <Row>
-                        <h1>Daniel Gutkin</h1>
+                        <h2>Daniel Gutkin</h2>
                         <br/> 
                         <p>Building things.</p>
                     </Row>
@@ -41,7 +41,7 @@ function About() {
                             </li>
                             <li>
                                 <p><FontAwesomeIcon className="list-icon" icon={faCheck} /></p>
-                                <p>Ex-financial services strategy & analytics professional</p>
+                                <p>Ex-financial services strategy and data professional</p>
                             </li>
                             <li>
                                 <p><FontAwesomeIcon className="list-icon" icon={faCheck} /></p>

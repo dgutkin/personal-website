@@ -7,16 +7,6 @@ import '../styles/NavBar.css';
 
 function NavBar() {
 
-    // const scrollToAbout = () => {
-    //     scroller.scrollTo(0,0);
-    // }
-
-    // const scrollToProject = () => {
-    //     scroller.scrollTo('projects', {
-    //         smooth: true
-    //     });
-    // }
-
     return (
         <Navbar expand="lg" className="bg-body-tertiary" sticky="top">
             <Container fluid className="navbar-container">

@@ -4,20 +4,21 @@
     height: 100vh;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
     display: flex;
     align-items: top;
+    justify-content: start;
 }
 
 .project-card{
     width: 18rem;
-    margin: 2rem;
+    margin-bottom: 2rem;
     background: #f8f9fa;
     animation: cards-appear 0.5s linear
 }
 
 @keyframes cards-appear {
-    0% { opacity: 0.5 }
-    100% { opacity: 1 }
+    0% { opacity: 0; transform: translate(0, 0.5rem) }
+    100% { opacity: 1; transform: translate(0, 0) }
 }
