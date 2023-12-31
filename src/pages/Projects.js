@@ -19,7 +19,7 @@ function Projects() {
                             <Card.Text>
                                 A rubber ducky themed clicker game for iOS.
                             </Card.Text>
-                            <Button variant="dark" href="https://github.com/dgutkin/Quacky-Clicker">See More</Button>
+                            <Button variant="dark" href="https://github.com/dgutkin/Quacky-Clicker">Check it out</Button>
                         </Card.Body>
                     </Card>
 
@@ -30,7 +30,7 @@ function Projects() {
                             <Card.Text>
                                 A procedurally generated runner game for mobile.
                             </Card.Text>
-                            <Button variant="dark" href="https://github.com/dgutkin/Bart-The-Banker">See More</Button>
+                            <Button variant="dark" href="https://github.com/dgutkin/Bart-The-Banker">Check it out</Button>
                         </Card.Body>
                     </Card>
 
@@ -41,7 +41,7 @@ function Projects() {
                             <Card.Text>
                                 Web development project.
                             </Card.Text>
-                            <Button variant="dark" disabled="true">See More</Button>
+                            <Button variant="dark" disabled="true">Check it out</Button>
                         </Card.Body>
                     </Card>
                 </Col>
