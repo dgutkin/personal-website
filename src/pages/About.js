@@ -7,7 +7,9 @@ import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCheck } from '@fortawesome/free-solid-svg-icons'
+import { faWrench } from '@fortawesome/free-solid-svg-icons'
+import { faBriefcase } from '@fortawesome/free-solid-svg-icons'
+import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
 import { faSquareGithub } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
@@ -36,15 +38,15 @@ function About() {
                     <Row>
                         <ul className="experience-list">
                             <li>
-                                <p><FontAwesomeIcon className="list-icon" icon={faCheck} /></p>
+                                <p><FontAwesomeIcon className="list-icon" icon={faWrench} /></p>
                                 <p>Tinkering with React, Node.js, Express and Unity</p>
                             </li>
                             <li>
-                                <p><FontAwesomeIcon className="list-icon" icon={faCheck} /></p>
+                                <p><FontAwesomeIcon className="list-icon" icon={faBriefcase} /></p>
                                 <p>Ex-financial services strategy and data professional</p>
                             </li>
                             <li>
-                                <p><FontAwesomeIcon className="list-icon" icon={faCheck} /></p>
+                                <p><FontAwesomeIcon className="list-icon" icon={faGraduationCap} /></p>
                                 <p>U of Waterloo mathematics</p>
                             </li>
                         </ul>
