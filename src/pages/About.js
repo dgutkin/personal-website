@@ -28,7 +28,7 @@ function About() {
             <Row>
                 <Col>
                     <Row>
-                        <h2>Daniel Gutkin</h2>
+                        <p id="name">Daniel Gutkin</p>
                         <br/> 
                         <p>Building things.</p>
                     </Row>
