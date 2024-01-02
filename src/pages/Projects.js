@@ -41,7 +41,7 @@ function Projects() {
                             <Card.Text>
                                 Web development project.
                             </Card.Text>
-                            <Button variant="dark" disabled="true">Check it out</Button>
+                            <Button variant="dark" disabled>Check it out</Button>
                         </Card.Body>
                     </Card>
                 </Col>
