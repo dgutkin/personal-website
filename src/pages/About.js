@@ -4,10 +4,10 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
-import Button from 'react-bootstrap/Button';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faWrench } from '@fortawesome/free-solid-svg-icons'
+import { faGlobe } from '@fortawesome/free-solid-svg-icons'
+import { faMobile } from '@fortawesome/free-solid-svg-icons'
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons'
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
 import { faSquareGithub } from '@fortawesome/free-brands-svg-icons'
@@ -38,29 +38,35 @@ function About() {
                     <Row>
                         <ul className="experience-list">
                             <li>
-                                <p><FontAwesomeIcon className="list-icon" icon={faWrench} /></p>
-                                <p>Tinkering with React.js and Express for Web and Unity for Mobile</p>
+                                <p><FontAwesomeIcon className="list-icon" icon={faGlobe} /></p>
+                                <p>Tinkering with React.js and Express for Web</p>
+                            </li>
+                            <li>
+                                <p><FontAwesomeIcon className="list-icon" icon={faMobile} /></p>
+                                <p>Playing with C# and Unity for Mobile</p>
                             </li>
                             <li>
                                 <p><FontAwesomeIcon className="list-icon" icon={faBriefcase} /></p>
-                                <p>Financial services strategy and data professional</p>
+                                <p>Financial Services | Data | Strategy</p>
                             </li>
                             <li>
                                 <p><FontAwesomeIcon className="list-icon" icon={faGraduationCap} /></p>
-                                <p>U of Waterloo mathematics graduate</p>
+                                <p>U of Waterloo Mathematics</p>
                             </li>
                         </ul>
                     </Row>
                     <Row>
                         <div className="link-container">
-                            <Button variant="light" href="https://github.com/dgutkin">
+                            <a class="link-button" href="https://github.com/dgutkin">
                                 <FontAwesomeIcon icon={faSquareGithub} size="2xl"/>
-                            </Button>
-                            <Button variant="light" href="https://linkedin.com/in/dgutkin">
+                            </a>
+                            <a class="link-button" href="https://linkedin.com/in/dgutkin">
                                 <FontAwesomeIcon icon={faLinkedin} size="2xl" />
-                            </Button>
-                            
+                            </a>
                         </div>
+                    </Row>
+                    <Row>
+                        <p id="made-from-label">Made with love and React.js and CSS 3</p>
                     </Row>
                 </Col>
             </Row>

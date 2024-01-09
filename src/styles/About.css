@@ -10,11 +10,11 @@ h1, h2, p {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-li{
+li {
     display: flex;
     flex-direction: row;
 }
@@ -28,29 +28,51 @@ li{
     margin-right: 5rem;
 }
 
-.profile-img{
+@media (max-width: 50rem) {
+    .about-container {
+        width: 100vw;
+        margin-left: 10vw;
+    }
+}
+
+.profile-img {
     width: 16rem;
     border-radius: 1.6rem;
     margin-top: 2rem;
 }
 
-.experience-list{
+.experience-list {
     margin-top: 4rem;
     text-align: left;
 }
 
-.list-icon{
+.list-icon {
     margin-right: 1rem;
 }
 
-.link-container{
+.link-container {
     display: flex;
     flex-direction: row;
     gap: 1rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
-.animate{
+.link-button {
+    padding: 0;
+    color: black;
+}
+
+.link-button:hover {
+    scale: 1.1;
+    opacity: 70%;
+}
+
+#made-from-label {
+    margin-top: 2rem;
+    font-size: x-small;
+}
+
+.animate {
     animation-duration: 1s;
     animation-name: fade-animate;
     animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
