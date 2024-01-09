@@ -39,15 +39,15 @@ function About() {
                         <ul className="experience-list">
                             <li>
                                 <p><FontAwesomeIcon className="list-icon" icon={faWrench} /></p>
-                                <p>Tinkering with React, Node.js, Express and Unity</p>
+                                <p>Tinkering with React.js and Express for Web and Unity for Mobile</p>
                             </li>
                             <li>
                                 <p><FontAwesomeIcon className="list-icon" icon={faBriefcase} /></p>
-                                <p>Ex-financial services strategy and data professional</p>
+                                <p>Financial services strategy and data professional</p>
                             </li>
                             <li>
                                 <p><FontAwesomeIcon className="list-icon" icon={faGraduationCap} /></p>
-                                <p>U of Waterloo mathematics</p>
+                                <p>U of Waterloo mathematics graduate</p>
                             </li>
                         </ul>
                     </Row>
