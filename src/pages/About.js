@@ -10,6 +10,7 @@ import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 import { faMobile } from '@fortawesome/free-solid-svg-icons'
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons'
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
+import { faHeart } from '@fortawesome/free-solid-svg-icons'
 import { faSquareGithub } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
@@ -66,7 +67,7 @@ function About() {
                         </div>
                     </Row>
                     <Row>
-                        <p id="made-from-label">Made with Love and React.js / CSS 3</p>
+                        <p id="made-from-label">Made with <FontAwesomeIcon icon={faHeart}/> and React.js / CSS 3</p>
                     </Row>
                 </Col>
             </Row>
