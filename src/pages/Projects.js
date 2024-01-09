@@ -17,7 +17,7 @@ function Projects() {
                         <Card.Body>
                             <Card.Title>Quacky Clicker</Card.Title>
                             <Card.Text>
-                                A rubber ducky themed clicker game for iOS.
+                                Rubber ducky themed clicker game for iOS.
                             </Card.Text>
                             <Button variant="dark" href="https://github.com/dgutkin/Quacky-Clicker">Check it out</Button>
                         </Card.Body>
@@ -28,7 +28,7 @@ function Projects() {
                         <Card.Body>
                             <Card.Title>Bart the Banker</Card.Title>
                             <Card.Text>
-                                A procedurally generated runner game for mobile.
+                                Procedurally generated runner game for mobile.
                             </Card.Text>
                             <Button variant="dark" href="https://github.com/dgutkin/Bart-The-Banker">Check it out</Button>
                         </Card.Body>
@@ -37,9 +37,20 @@ function Projects() {
                     <Card className="project-card">
                         <Card.Img variant="left" src="" />
                         <Card.Body>
+                            <Card.Title>Dad Jokes</Card.Title>
+                            <Card.Text>
+                                Dad joke generator on the web.
+                            </Card.Text>
+                            <Button variant="dark" href="https://github.com/dgutkin/dad-jokes">Check it out</Button>
+                        </Card.Body>
+                    </Card>
+
+                    <Card className="project-card">
+                        <Card.Img variant="left" src="" />
+                        <Card.Body>
                             <Card.Title>Under Construction</Card.Title>
                             <Card.Text>
-                                Web development project.
+                                Full stack web project.
                             </Card.Text>
                             <Button variant="dark" disabled>Check it out</Button>
                         </Card.Body>
