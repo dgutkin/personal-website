@@ -48,6 +48,8 @@ li {
 
 .list-icon {
     margin-right: 1rem;
+    width: 1rem;
+    text-align: center;
 }
 
 .link-container {

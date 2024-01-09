@@ -66,7 +66,7 @@ function About() {
                         </div>
                     </Row>
                     <Row>
-                        <p id="made-from-label">Made with love and React.js and CSS 3</p>
+                        <p id="made-from-label">Made with Love and React.js / CSS 3</p>
                     </Row>
                 </Col>
             </Row>
