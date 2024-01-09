@@ -1,4 +1,3 @@
-import {useEffect} from 'react';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -17,12 +16,6 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import '../styles/About.css';
 
 function About() {
-
-    useEffect(() => {
-
-        // animate the contents of the page
-
-    }, []);
 
     return(
         <Container fluid className="about-container animate" id="about">
@@ -58,10 +51,10 @@ function About() {
                     </Row>
                     <Row>
                         <div className="link-container">
-                            <a class="link-button" href="https://github.com/dgutkin">
+                            <a className="link-button" href="https://github.com/dgutkin">
                                 <FontAwesomeIcon icon={faSquareGithub} size="2xl"/>
                             </a>
-                            <a class="link-button" href="https://linkedin.com/in/dgutkin">
+                            <a className="link-button" href="https://linkedin.com/in/dgutkin">
                                 <FontAwesomeIcon icon={faLinkedin} size="2xl" />
                             </a>
                         </div>
