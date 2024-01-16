@@ -14,6 +14,7 @@ import { faSquareGithub } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
+import '../styles/App.css';
 import '../styles/About.css';
 
 function About() {
@@ -25,7 +26,7 @@ function About() {
                     <Row>
                         <p id="name">Daniel Gutkin</p>
                         <br/> 
-                        <p>Building things.</p>
+                        <p>Building things...</p>
                     </Row>
                     <Row>
                         <Image className="profile-img" src="Dan_Photo.jpg"/>

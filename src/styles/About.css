@@ -59,35 +59,7 @@ li {
     margin-top: 1rem;
 }
 
-.link-button {
-    padding: 0;
-    color: black;
-}
-
-.link-button:hover {
-    scale: 1.1;
-    opacity: 70%;
-}
-
 #made-from-label {
     margin-top: 2rem;
     font-size: x-small;
-}
-
-.animate {
-    animation-duration: 1s;
-    animation-name: fade-animate;
-    animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
-    animation-fill-mode: backwards;
-}
-
-@keyframes fade-animate {
-    0% { 
-        opacity: 0;
-        transform: translate(0, 0.5rem)
-    }
-    100% { 
-        opacity: 1;
-        transform: translate(0, 0)
-    }
 }
