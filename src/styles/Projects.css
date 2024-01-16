@@ -13,19 +13,12 @@
     justify-content: flex-start;
 }
 
-@media (max-width: 50rem) {
-    .projects-container {
-        width: 100vw;
-        padding-left: 10vw;
-    }
-}
-
 .card-list {
     margin-top: 1rem;
 }
 
 .project-card {
-    width: 24rem;
+    width: 26rem;
     margin-bottom: 1rem;
     background: #f8f9fa;
     display: flex;
@@ -48,4 +41,14 @@
 
 .card-text {
     color: grey;
+}
+
+@media (max-width: 35rem) {
+    .projects-container {
+        width: 100vw;
+        padding-left: 10vw;
+    }
+    .project-card {
+        width: 70vw;
+    }
 }
