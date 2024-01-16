@@ -4,55 +4,71 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPlay } from '@fortawesome/free-solid-svg-icons'
+import { faSquareGithub } from '@fortawesome/free-brands-svg-icons'
+
+import '../styles/App.css';
 import '../styles/Projects.css';
 
 function Projects() {
     return(
-        <Container fluid className="projects-container" id="projects">
+        <Container fluid className="projects-container animate" id="projects">
+
             <Row>
-                <Col>
+                <p id="name">Projects</p>
+                <br/> 
+                <p>Some of my work...</p>
+            </Row>
+
+            <Row>
+                <Col className="card-list">
 
                     <Card className="project-card">
-                        <Card.Img variant="left" src="" />
+                        <Card.Img className="card-image" src="Phone.jpeg" />
                         <Card.Body>
                             <Card.Title>Quacky Clicker</Card.Title>
                             <Card.Text>
-                                Rubber ducky themed clicker game for iOS.
+                                Rubber ducky themed clicker game for iOS. Built in Unity.
                             </Card.Text>
-                            <Button variant="dark" href="https://github.com/dgutkin/Quacky-Clicker">Check it out</Button>
+                            <div className="link-container">
+                            <a className="link-button" href="https://www.apple.com/ca/search/quacky-clicker?src=globalnav">
+                                    <FontAwesomeIcon icon={faPlay} size="2xl"/>
+                                </a>
+                                <a className="link-button" href="https://github.com/dgutkin/Quacky-Clicker">
+                                    <FontAwesomeIcon icon={faSquareGithub} size="2xl"/>
+                                </a>
+                            </div>
                         </Card.Body>
                     </Card>
 
                     <Card className="project-card">
-                        <Card.Img variant="left" src="" />
-                        <Card.Body>
-                            <Card.Title>Bart the Banker</Card.Title>
-                            <Card.Text>
-                                Procedurally generated runner game for mobile.
-                            </Card.Text>
-                            <Button variant="dark" href="https://github.com/dgutkin/Bart-The-Banker">Check it out</Button>
-                        </Card.Body>
-                    </Card>
-
-                    <Card className="project-card">
-                        <Card.Img variant="left" src="" />
+                        <Card.Img className="card-image" src="Mac.jpeg" />
                         <Card.Body>
                             <Card.Title>Dad Jokes</Card.Title>
                             <Card.Text>
-                                Dad joke generator on the web.
+                                Dad joke generator on the web. Built with React.js.
                             </Card.Text>
-                            <Button variant="dark" href="https://github.com/dgutkin/dad-jokes">Check it out</Button>
+                            <div className="link-container">
+                                <a className="link-button" href="https://github.com/dgutkin/dad-jokes">
+                                    <FontAwesomeIcon icon={faSquareGithub} size="2xl"/>
+                                </a>
+                            </div>
                         </Card.Body>
                     </Card>
 
                     <Card className="project-card">
-                        <Card.Img variant="left" src="" />
+                        <Card.Img className="card-image" src="Code.jpeg" />
                         <Card.Body>
-                            <Card.Title>Under Construction</Card.Title>
+                            <Card.Title>Running Journal</Card.Title>
                             <Card.Text>
-                                Full stack web project.
+                                Running training digital journalling on the web. Built with Next.js, Express and MongoDB.
                             </Card.Text>
-                            <Button variant="dark" disabled>Check it out</Button>
+                            <div className="link-container">
+                                <a className="link-button" href="https://github.com/dgutkin/running-journal">
+                                    <FontAwesomeIcon icon={faSquareGithub} size="2xl"/>
+                                </a>
+                            </div>
                         </Card.Body>
                     </Card>
                 </Col>
