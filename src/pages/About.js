@@ -12,6 +12,7 @@ import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
 import { faHeart } from '@fortawesome/free-solid-svg-icons'
 import { faSquareGithub } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 import '../styles/About.css';
 
@@ -55,7 +56,10 @@ function About() {
                                 <FontAwesomeIcon icon={faSquareGithub} size="2xl"/>
                             </a>
                             <a className="link-button" href="https://linkedin.com/in/dgutkin">
-                                <FontAwesomeIcon icon={faLinkedin} size="2xl" />
+                                <FontAwesomeIcon icon={faLinkedin} size="2xl"/>
+                            </a>
+                            <a className="link-button" href="mailto:dngutkin@gmail.com">
+                                <FontAwesomeIcon icon={faEnvelope} size="2xl"/>
                             </a>
                         </div>
                     </Row>
