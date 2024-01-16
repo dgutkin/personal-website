@@ -62,7 +62,7 @@ function Projects() {
                         <Card.Body>
                             <Card.Title>Running Journal</Card.Title>
                             <Card.Text>
-                                Running training digital journalling on the web. Built with Next.js, Express and MongoDB.
+                                Run journalling on the web. Built with Next.js and Express.
                             </Card.Text>
                             <div className="link-container">
                                 <a className="link-button" href="https://github.com/dgutkin/running-journal">
