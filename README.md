@@ -1,2 +1,2 @@
 # Personal Website
-A simple personal website built with React.js and Node.js.
+A personal website with a bio and project listing built with React.
