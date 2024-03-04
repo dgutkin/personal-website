@@ -46,7 +46,7 @@ function Projects() {
                                 <a className="link-button" href="http://runpen.ca">
                                     <FontAwesomeIcon icon={faPlay} size="2xl"/>
                                 </a>
-                                <a className="link-button" href="https://github.com/dgutkin/running-journal">
+                                <a className="link-button" href="https://github.com/dgutkin/runpen-client">
                                     <FontAwesomeIcon icon={faSquareGithub} size="2xl"/>
                                 </a>
                             </div>
