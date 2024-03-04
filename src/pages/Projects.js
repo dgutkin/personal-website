@@ -43,7 +43,7 @@ function Projects() {
                                 Digital running journal. Built with Next.js, Express and MongoDB.
                             </Card.Text>
                             <div className="link-container">
-                                <a className="link-button" href="http://runpen.ca">
+                                <a className="link-button" href="https://runpen.ca">
                                     <FontAwesomeIcon icon={faPlay} size="2xl"/>
                                 </a>
                                 <a className="link-button" href="https://github.com/dgutkin/runpen-client">
