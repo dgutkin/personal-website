@@ -5,11 +5,11 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGlobe } from '@fortawesome/free-solid-svg-icons'
-import { faMobile } from '@fortawesome/free-solid-svg-icons'
+import { faStar } from '@fortawesome/free-solid-svg-icons'
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons'
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
-import { faHeart } from '@fortawesome/free-solid-svg-icons'
+import { faReact } from '@fortawesome/free-brands-svg-icons'
+import { faMugSaucer } from '@fortawesome/free-solid-svg-icons'
 import { faSquareGithub } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faSquareEnvelope } from '@fortawesome/free-solid-svg-icons'
@@ -26,7 +26,7 @@ function About() {
                     <Row>
                         <p id="name">Daniel Gutkin</p>
                         <br/> 
-                        <p>Building things...</p>
+                        <p>Data professional...</p>
                     </Row>
                     <Row>
                         <Image className="profile-img" src="Dan_Photo.jpg"/>
@@ -34,16 +34,12 @@ function About() {
                     <Row>
                         <ul className="experience-list">
                             <li>
-                                <p><FontAwesomeIcon className="list-icon" icon={faGlobe} /></p>
-                                <p>Tinkering with React.js and Express for Web</p>
-                            </li>
-                            <li>
-                                <p><FontAwesomeIcon className="list-icon" icon={faMobile} /></p>
-                                <p>Playing with C# and Unity for Mobile</p>
+                                <p><FontAwesomeIcon className="list-icon" icon={faStar} /></p>
+                                <p>Analytics | Data | Strategy</p>
                             </li>
                             <li>
                                 <p><FontAwesomeIcon className="list-icon" icon={faBriefcase} /></p>
-                                <p>Financial Services | Data | Strategy</p>
+                                <p>Financial Services | Professional Services</p>
                             </li>
                             <li>
                                 <p><FontAwesomeIcon className="list-icon" icon={faGraduationCap} /></p>
@@ -65,7 +61,7 @@ function About() {
                         </div>
                     </Row>
                     <Row>
-                        <p id="made-from-label">Made with <FontAwesomeIcon icon={faHeart}/> and React.js / CSS 3</p>
+                        <p id="made-from-label">Made with <FontAwesomeIcon icon={faReact}/> and <FontAwesomeIcon icon={faMugSaucer} size="xs"/>.</p>
                     </Row>
                 </Col>
             </Row>
