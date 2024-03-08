@@ -40,7 +40,7 @@ function Projects() {
                         <Card.Body>
                             <Card.Title>runPen</Card.Title>
                             <Card.Text>
-                                Digital running journal. Built with Next.js, Express and MongoDB.
+                                Digital running journal for the web. Built with Next.
                             </Card.Text>
                             <div className="link-container">
                                 <a className="link-button" href="https://runpen.ca">
