@@ -17,7 +17,7 @@ function Projects() {
             <Row>
                 <p id="name">Projects</p>
                 <br/> 
-                <p>Some adventures...</p>
+                <p>Some side pursuits...</p>
             </Row>
 
             <Row>
