@@ -62,7 +62,7 @@ function Projects() {
                                 Rubber ducky themed clicker game for iOS. Built in Unity.
                             </Card.Text>
                             <div className="link-container">
-                                <a className="link-button" href="https://www.apple.com/ca/search/quacky-clicker?src=globalnav">
+                                <a className="link-button" href="https://apps.apple.com/us/app/quacky-clicker/id1512702178">
                                     <FontAwesomeIcon icon={faPlay} size="2xl"/>
                                 </a>
                                 <a className="link-button" href="https://github.com/dgutkin/Quacky-Clicker">
