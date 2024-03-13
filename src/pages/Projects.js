@@ -59,7 +59,7 @@ function Projects() {
                         <Card.Body>
                             <Card.Title>Quacky Clicker</Card.Title>
                             <Card.Text>
-                                Rubber ducky themed clicker game for iOS. Built in Unity.
+                                Rubber duck clicker game for iOS. ~100 players. Built in Unity.
                             </Card.Text>
                             <div className="link-container">
                                 <a className="link-button" href="https://apps.apple.com/us/app/quacky-clicker/id1512702178">
