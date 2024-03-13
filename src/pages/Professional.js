@@ -13,7 +13,7 @@ function Professional() {
             <Row>
                 <p id="name">Professional Experience</p>
                 <br/> 
-                <p>Some adventures...</p>
+                <p>Some full-time adventures...</p>
             </Row>
 
             <Row>
@@ -22,8 +22,8 @@ function Professional() {
                     <Card className="professional-card">
                         <Card.Img className="card-image" src="Work.jpg" />
                         <Card.Body>
-                            <Card.Title>CPP Investments</Card.Title>
-                            <Card.Text className="card-timeframe">2020-2023</Card.Text>
+                            <Card.Title>Management Analytics</Card.Title>
+                            <Card.Text className="card-timeframe">CPP Investments, 2020-2023</Card.Text>
                             <Card.Text>
                                 Portfolio analytics for Canada's largest asset manager.
                             </Card.Text>
@@ -33,8 +33,8 @@ function Professional() {
                     <Card className="professional-card">
                         <Card.Img className="card-image" src="Work.jpg" />
                         <Card.Body>
-                            <Card.Title>Oliver Wyman Group</Card.Title>
-                            <Card.Text className="card-timeframe">2016-2020</Card.Text>
+                            <Card.Title>Strategy Consulting</Card.Title>
+                            <Card.Text className="card-timeframe">Oliver Wyman Group, 2016-2020</Card.Text>
                             <Card.Text>
                                 Management consulting in financial services and health.
                             </Card.Text>

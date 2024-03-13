@@ -40,6 +40,8 @@
 
 .card-text {
     color: grey;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
 }
 
 .card-timeframe {
