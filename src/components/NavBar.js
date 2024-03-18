@@ -26,7 +26,7 @@ function NavBar() {
     };
 
     return (
-        <Navbar expand="sm" className="bg-body-tertiary" sticky="top">
+        <Navbar expand="sm" className="bg-white" sticky="top">
             <Container fluid className="navbar-container">
                 <Navbar.Brand href="/"></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>
