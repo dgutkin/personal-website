@@ -17,30 +17,18 @@ function Projects() {
             <Row>
                 <p id="name">Projects</p>
                 <br/> 
-                <p>Some side pursuits...</p>
+                <p>Side pursuits</p>
             </Row>
 
             <Row>
                 <Col className="card-list">
 
                     <Card className="project-card">
-                        <Card.Img className="card-image" src="Mac.jpeg" />
-                        <Card.Body>
-                            <Card.Title>Stealth Project</Card.Title>
-                            <Card.Text>
-                                Under construction.
-                            </Card.Text>
-                            <div className="link-container">
-                            </div>
-                        </Card.Body>
-                    </Card>
-
-                    <Card className="project-card">
-                        <Card.Img className="card-image" src="Code.jpeg" />
+                        
                         <Card.Body>
                             <Card.Title>runPen</Card.Title>
                             <Card.Text>
-                                Digital running journal for the web. Built with Next.
+                                Digital running journal for the web.
                             </Card.Text>
                             <div className="link-container">
                                 <a className="link-button" href="https://runpen.ca">
@@ -55,11 +43,11 @@ function Projects() {
                 
 
                     <Card className="project-card">
-                        <Card.Img className="card-image" src="Phone.jpeg" />
+                        
                         <Card.Body>
                             <Card.Title>Quacky Clicker</Card.Title>
                             <Card.Text>
-                                Rubber duck clicker game for iOS. ~100 players. Built in Unity.
+                                Rubber duck clicker game for iOS. 100+ players.
                             </Card.Text>
                             <div className="link-container">
                                 <a className="link-button" href="https://apps.apple.com/us/app/quacky-clicker/id1512702178">
