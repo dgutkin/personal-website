@@ -1,4 +1,17 @@
 
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
+}
+
+li.professional-list-item:before {
+    content: ">";
+    padding-right: 1rem;
+    color: grey;
+}
+
 .professional-container{
     width: 50rem;
     padding-top: 2rem;
@@ -13,17 +26,21 @@
 }
 
 .card-list {
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 .professional-card {
-    width: 26rem;
-    margin-bottom: 2rem;
-    background: #f8f9fa;
+    width: 24rem;
+    margin-top: 0rem;
+    background: #f2f2f2f2;
     display: flex;
     flex-direction: row;
     align-items: center;
     border: none;
+}
+
+.professional-card-non-first {
+    margin-top: 2rem;
 }
 
 .card-title {
@@ -32,8 +49,8 @@
 
 .card-image {
     border-radius: 10%;
-    width: 8rem;
-    height: 8rem;
+    width: 2rem;
+    height: 2rem;
     margin-right: 1rem;
     align-items: center;
 }
@@ -48,12 +65,34 @@
     font-style: italic;
 }
 
+.accordion-header {
+    padding: 0;
+}
+
+.accordion-item {
+    padding: 0;
+    border: none;
+    background: grey;
+}
+
+.experience-card {
+    background: #ffffff;
+    width: 24rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: none;
+}
+
 @media (max-width: 35rem) {
     .professional-container {
         width: 100vw;
-        padding-left: 10vw;
+        padding-left: 5vw;
     }
     .professional-card {
-        width: 70vw;
+        width: 80vw;
+    }
+    .experience-card {
+        width: 80vw;
     }
 }
