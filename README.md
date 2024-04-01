@@ -1,4 +1,7 @@
 # Personal Website
-A personal website with a bio, professional experience and project listing built with React. Hosted on Heroku.
+A personal website with a bio, professional experience and project listing.
 
-dangutkin.me
+## Status and Access
+Built with plain React and CSS. Hosted on Heroku.
+
+Visit at dangutkin.me
