@@ -21,6 +21,38 @@ function Projects() {
             </Row>
 
             <Row>
+                <p className="sub-name">Data</p>
+            </Row>
+
+            <Row>
+                <Col className="card-list">
+
+                    <Card className="project-card">
+                        
+                        <Card.Body>
+                            <Card.Title>DineSafeTO Infraction Rates</Card.Title>
+                            <Card.Text>
+                                Restaurant health infraction clustering and rates.
+                            </Card.Text>
+                            <div className="link-container">
+                                <a className="link-button" href="https://nbviewer.org/github/dgutkin/dinesafe-infraction-rates/blob/main/dinesafe-to.ipynb">
+                                    <FontAwesomeIcon icon={faPlay} size="2xl"/>
+                                </a>
+                                <a className="link-button" href="https://github.com/dgutkin/dinesafe-infraction-rates/blob/main/dinesafe-to.ipynb">
+                                    <FontAwesomeIcon icon={faSquareGithub} size="2xl"/>
+                                </a>
+                            </div>
+                        </Card.Body>
+                    </Card>
+
+                </Col>
+            </Row>
+
+            <Row>
+                <p className="sub-name">Product</p>
+            </Row>
+
+            <Row>
                 <Col className="card-list">
 
                     <Card className="project-card">

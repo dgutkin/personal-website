@@ -12,6 +12,12 @@
     justify-content: flex-start;
 }
 
+.sub-name {
+    font-size: large;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
 .card-list {
     margin-top: 1rem;
 }
