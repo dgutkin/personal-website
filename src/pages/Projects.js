@@ -42,7 +42,7 @@ function Projects() {
                     </Card>
                 
 
-                    <Card className="project-card">
+                    <Card className="project-card project-card-non-first">
                         
                         <Card.Body>
                             <Card.Title>Quacky Clicker</Card.Title>
