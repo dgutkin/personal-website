@@ -25,7 +25,7 @@ function About() {
                     <Row>
                         <p id="name">Daniel Gutkin</p>
                         <br/> 
-                        <p>Data professional</p>
+                        <p>Data professional.</p>
                     </Row>
                     <Row>
                         <Image className="profile-img" src="Dan_Photo.jpg"/>

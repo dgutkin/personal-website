@@ -33,7 +33,7 @@ function Professional() {
             <Row>
                 <p id="name">Professional Experience</p>
                 <br/> 
-                <p>Full time work</p>
+                <p>Full time work.</p>
             </Row>
 
             <Row>
