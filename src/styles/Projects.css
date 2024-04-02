@@ -58,6 +58,14 @@
     padding-left: 1rem;
 }
 
+.project-logo {
+    scale: 2.5;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-right: 1.5rem;
+    padding-left: 2.5rem;
+}
+
 @media (max-width: 35rem) {
     .projects-container {
         width: 100vw;
