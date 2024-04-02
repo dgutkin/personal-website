@@ -49,7 +49,7 @@ function Projects() {
                                 </div>
                             </Col>
                             <Col xs={3} className="project-logo">
-                                <FontAwesomeIcon icon={faUtensils} style={{color: "#c2c2c2"}}/>
+                                <FontAwesomeIcon icon={faUtensils} style={{color: "#c2c2c2", scale: "3"}}/>
                             </Col>
                             </Row>
                         </Card.Body>
@@ -84,7 +84,7 @@ function Projects() {
                                 </div>
                             </Col>
                             <Col xs={3} className="project-logo">
-                                <FontAwesomeIcon icon={faBook} style={{color: "#c2c2c2"}}/>
+                                <FontAwesomeIcon icon={faBook} style={{color: "#c2c2c2", scale: "3"}}/>
                             </Col>
                             </Row>
                         </Card.Body>
@@ -111,7 +111,7 @@ function Projects() {
                                 </div>
                             </Col>
                             <Col xs={3} className="project-logo">
-                                <FontAwesomeIcon icon={faGamepad} style={{color: "#c2c2c2"}}/>
+                                <FontAwesomeIcon icon={faGamepad} style={{color: "#c2c2c2", scale: "3"}}/>
                             </Col>
                             </Row>
                         </Card.Body>
