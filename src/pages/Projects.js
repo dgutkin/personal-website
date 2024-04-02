@@ -17,7 +17,7 @@ function Projects() {
             <Row>
                 <p id="name">Projects</p>
                 <br/> 
-                <p>Side pursuits</p>
+                <p>Side pursuits.</p>
             </Row>
 
             <Row>
@@ -32,13 +32,13 @@ function Projects() {
                         <Card.Body>
                             <Card.Title>DineSafeTO Infraction Rates</Card.Title>
                             <Card.Text>
-                                Restaurant health infraction clustering and rates.
+                                Restaurant clustering and inspection infraction rates.
                             </Card.Text>
                             <div className="link-container">
-                                <a className="link-button" href="https://nbviewer.org/github/dgutkin/dinesafe-infraction-rates/blob/main/dinesafe-to.ipynb">
+                                <a className="link-button" href="https://nbviewer.org/github/dgutkin/dinesafe-infraction-rates/blob/main/dinesafe-infractions.ipynb">
                                     <FontAwesomeIcon icon={faPlay} size="2xl"/>
                                 </a>
-                                <a className="link-button" href="https://github.com/dgutkin/dinesafe-infraction-rates/blob/main/dinesafe-to.ipynb">
+                                <a className="link-button" href="https://github.com/dgutkin/dinesafe-infraction-rates">
                                     <FontAwesomeIcon icon={faSquareGithub} size="2xl"/>
                                 </a>
                             </div>
