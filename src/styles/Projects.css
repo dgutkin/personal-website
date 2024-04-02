@@ -61,7 +61,8 @@
 @media (max-width: 35rem) {
     .projects-container {
         width: 100vw;
-        padding-left: 5vw;
+        padding-left: 10vw;
+        padding-right: 10vw;
     }
     .project-card {
         width: 80vw;

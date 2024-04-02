@@ -30,7 +30,8 @@ li {
 @media (max-width: 35rem) {
     .about-container {
         width: 100vw;
-        padding-left: 5vw;
+        padding-left: 10vw;
+        padding-right: 10vw;
     }
 }
 
